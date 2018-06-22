@@ -2,69 +2,149 @@
 <html lang="zh-Hant-TW">
 
 <head>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        table {
-            border-collapse: collapse;
-        }
-
-        table td {
-            border: 1px solid black;
-        }
-
-        table tr:first-child td {
-            border-top: 0;
-        }
-
-        table tr td:first-child {
-            border-left: 0;
-        }
-
-        table tr:last-child td {
-            border-bottom: 0;
-        }
-
-        table tr td:last-child {
-            border-right: 0;
-        }
-
-        div.test {
+        div.title {
             display: inline-block;
-            background-color: skyblue;
-            border: 1px solid;
+            font-size: 24px;
+            text-align: center;
+            font-weight: bold;
+            padding: 10px 5px 5px 5px;
+            margin: 5px 120px 0px 120px;
+            width: 125px;
+            height: 50px;
+        }
+
+        div.rooms {
+            display: inline-block;
             padding: 5px;
+            margin: 0px 35px 5px 40px;
+            width: 550px;
+            height: 30px;
+        }
+
+        hr {
             margin: 5px;
-            width: 100px;
-            height: 100px;
+        }
+
+        table {
+            font-family: arial;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            width: 70px;
+            height: 30px;
+
+        }
+
+        button {
+            border-radius: 5px;
         }
     </style>
 </head>
 
 <body>
-    <spac class="test">dddd</spac>
-    <div class="test">內容...</div>
-
+    <div class="title">大廳</div>
     <hr>
-    <table>
-        <tr>
-            <td>房間一</td>
-            <td>房間二</td>
-            <td>房間三</td>
-        </tr>
-        <tr>
-            <td>房間四</td>
-            <td>房間五</td>
-            <td>房間六</td>
-        </tr>
-        <tr>
-            <td>房間七</td>
-            <td>房間八</td>
-            <td>房間九</td>
-        </tr>
-    </table>
+
+    <div class="row rooms">
+        <div class="col-xs-2">
+            <button type="button">
+                <table>
+                    <tr>
+                        <td>房間-1</td>
+                    </tr>
+                </table>
+            </button>
+
+        </div>
+        <div class="col-xs-2">
+            <button type="button">
+                <table>
+                    <tr>
+                        <td>房間-2</td>
+                    </tr>
+                </table>
+            </button>
+        </div>
+        <div class="col-xs-2">
+            <button type="button">
+                <table>
+                    <tr>
+                        <td>房間-3</td>
+                    </tr>
+                </table>
+            </button>
+        </div>
+    </div>
+    <br>
+    <div class="row rooms">
+        <div class="col-xs-2">
+            <button type="button">
+                <table>
+                    <tr>
+                        <td>房間-4</td>
+                    </tr>
+                </table>
+            </button>
+
+        </div>
+        <div class="col-xs-2">
+            <button type="button">
+                <table>
+                    <tr>
+                        <td>房間-5</td>
+                    </tr>
+                </table>
+            </button>
+        </div>
+        <div class="col-xs-2">
+            <button type="button">
+                <table>
+                    <tr>
+                        <td>房間-6</td>
+                    </tr>
+                </table>
+            </button>
+        </div>
+    </div>
+    <br>
+    <div class="row rooms">
+        <div class="col-xs-2">
+            <button type="button">
+                <table>
+                    <tr>
+                        <td>房間-7</td>
+                    </tr>
+                </table>
+            </button>
+
+        </div>
+        <div class="col-xs-2">
+            <button type="button">
+                <table>
+                    <tr>
+                        <td>房間-8</td>
+                    </tr>
+                </table>
+            </button>
+        </div>
+        <div class="col-xs-2">
+            <button type="button">
+                <table>
+                    <tr>
+                        <td>房間-9</td>
+                    </tr>
+                </table>
+            </button>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
